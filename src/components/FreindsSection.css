@@ -1,0 +1,33 @@
+.freinds--section{
+    height: 600px;
+    width: 270px;
+    border-radius: 12px;
+    background-color: #fff;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.25);
+    margin-right: 10px;
+}
+.freinds--section_title{
+    font-size: 16px;
+    font-weight: 500;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    padding: 10px 20px;
+}
+.freinds--section_details{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 30px;
+    margin-left: 30px;
+    margin-top: 15px;
+    /* text-align: center; */
+}
+.freinds--section_name{
+    font-size: 14px;
+    font-weight: 500;
+    text-align: right;
+}
+.freinds--sections_img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}

@@ -1,0 +1,36 @@
+.stories--buttons{
+    display: flex;
+    margin: 40px;
+    gap: 40px;
+}
+
+.btn-blue {
+  height: 40px;
+  width: 120px;
+  border-radius: 6px;
+  background-color: blue;
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.btn-grey {
+  height: 40px;
+  width: 120px;
+  border-radius: 6px;
+  background-color: rgb(158, 152, 152);
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.signedin--user--profile_main{
+    display: flex;
+    justify-content: space-between;
+    
+}
+@media screen and (max-width: 425px) {
+  .stories--buttons{
+    margin: 20px 0;
+    gap: 20px;
+}
+}

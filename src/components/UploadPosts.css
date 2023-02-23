@@ -1,0 +1,51 @@
+.upload--posts--wrapper {
+  height: 119px;
+  width: 700px;
+  /* padding: 25px; */
+  border-radius: 12px;
+  margin-left: 20px;
+  background-color: #fff;
+}
+.upload-posts-items {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  transform: translateY(35px);
+}
+.post-user-profile--img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-size: cover;
+}
+.upload-posts-items input {
+  width: 400px;
+  height: 40px;
+  border-radius: 25px;
+  border: 1px solid rgba(199, 199, 199, 1);
+  outline: none;
+  padding: 0 10px;
+}
+.choose-photo {
+  color: rgba(0, 0, 0, 0.6);
+  width: 30px !important;
+  height: 30px !important;
+  cursor: pointer;
+}
+.upload-posts-items button {
+  width: 100px;
+  height: 40px;
+  color: rgb(0, 0, 0.9);
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  border-radius: 7px;
+  cursor: pointer;
+}
+@media screen and (max-width: 480px) {
+  .upload--posts--wrapper {
+    /* width: 100%; */
+    margin: 0;
+    /* padding: 25px; */
+    border-radius: 0;
+  }
+}

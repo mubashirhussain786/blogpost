@@ -1,0 +1,46 @@
+.freinds {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  padding-bottom: 20px;
+  height: 100vh;
+}
+.freinds-heading {
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 2rem;
+}
+.freinds--box_name {
+  font-size: 16px;
+  font-weight: 500;
+}
+.freinds--box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(122, 119, 119, 0.836);
+  padding: 10px 30px;
+  cursor: pointer;
+}
+.freinds--box_img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+.freinds--box_data {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.freinds--box_btn {
+  width: 120px;
+  height: 40px;
+  border-radius: 7px;
+  border: none;
+  outline: none;
+  background: #fff;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    cursor: pointer;
+}

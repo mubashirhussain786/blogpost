@@ -1,0 +1,32 @@
+.user-details{
+    display: flex;
+    justify-content: space-between;
+}
+.other-user-buttons{
+    display: flex;
+    justify-content: space-between;
+}
+@media screen and (max-width: 1024px) {
+    .usersidebar{
+        display: none;
+    }
+    .userfreind{
+        display: none;
+    }
+    .userPost{
+        margin-left: 12rem;
+    }
+}
+@media screen and (max-width: 768px){
+    .userPost{
+        margin-left: 2rem;
+    }
+}
+@media screen and (max-width: 425px){
+    .userPost{
+        margin-left: 2rem;
+    }
+    .other-user-buttons{
+        gap: 12rem;
+    }
+}
