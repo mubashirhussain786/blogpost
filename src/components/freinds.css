@@ -1,9 +1,10 @@
+
 .freinds {
   display: flex;
   flex-direction: column;
-  background-color: #fff;
   padding-bottom: 20px;
-  height: 100vh;
+  background: #fff;
+  width: 100%;
 }
 .freinds-heading {
   font-size: 20px;
@@ -42,5 +43,35 @@
   background: #fff;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
     rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
-    cursor: pointer;
+  cursor: pointer;
 }
+@media screen and (max-width: 550px) {
+  .freinds--box_name {
+    font-size: 14px;
+  }
+
+  .freinds--box_img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+  }
+
+  .freinds--box_btn {
+    width: 100px;
+    height: 30px;
+    border-radius: 7px;
+  }
+  .freinds {
+    width: 540px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .freinds {
+    width: 750px;
+  }
+}
+/* @media screen and (max-width: 2560px) {
+  .freinds {
+    width: 2560px;
+  }
+} */

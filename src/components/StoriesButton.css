@@ -8,8 +8,9 @@
   height: 40px;
   width: 120px;
   border-radius: 6px;
-  background-color: blue;
+  background-color: rgb(47, 47, 247);
   color: #fff;
+  font-weight: 600;
   border: none;
   outline: none;
   cursor: pointer;
@@ -18,9 +19,10 @@
   height: 40px;
   width: 120px;
   border-radius: 6px;
-  background-color: rgb(158, 152, 152);
+  background-color: rgb(219, 217, 217);
   border: none;
   outline: none;
+  font-weight: 600;
   cursor: pointer;
 }
 .signedin--user--profile_main{

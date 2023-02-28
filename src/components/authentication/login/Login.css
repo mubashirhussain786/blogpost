@@ -1,0 +1,261 @@
+.signin_page_main {
+  width: 380px;
+  height: 480px;
+  background: #ffffff;
+  box-shadow: rgba(99, 99, 99, 0.3) 0px 1px 3px 0px;
+  border-radius: 27px;
+}
+.signin_page_center {
+  display: flex;
+  align-items: center;
+}
+.login_main {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+.ilustrator_loginPage {
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  height: 520px;
+  width: 770px;
+}
+.side_image img {
+  height: 390px;
+  width: 330px;
+}
+.side_image {
+  display: flex;
+  align-items: center;
+}
+.signin_heading {
+  text-align: center;
+}
+.signin_heading h1 {
+  font-weight: 600;
+  font-size: 26px;
+  padding: 20px 0px 20px 0px;
+  letter-spacing: 0.065em;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 0px 13px 0px;
+}
+.mmu {
+  display: flex;
+  flex-direction: column;
+}
+/* .dummy {
+  display: flex;
+} */
+.inputs label {
+  display: flex;
+  font-weight: 400;
+  font-size: 13px;
+  padding: 20px 0px 8px 0px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  color: rgba(0, 0, 0, 0.8);
+}
+.inputs input {
+  box-sizing: border-box;
+  width: 300px;
+  height: 36px;
+  border: none;
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  border-radius: 5px;
+}
+.inputs input:hover {
+  background-color: rgb(243, 243, 243);
+}
+.input_forgotp {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.forgot_password h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 13px;
+  padding: 10px 0px 0px 0px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  letter-spacing: 0.03em;
+
+  color: rgba(0, 0, 0, 0.7);
+}
+.inputs input:focus {
+  border: solid 2px rgb(10, 0, 145);
+  outline: none;
+  box-shadow: none;
+}
+.submit_btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0px 20px 0px;
+}
+.btn {
+  box-sizing: border-box;
+  width: 300px;
+  height: 36px;
+  cursor: pointer;
+  border: none;
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 0.05em;
+  color: rgba(0, 0, 0, 0.7);
+}
+.submit_btn button:hover {
+  transition: 0.5 ease-in-out;
+  background: #ffc21b;
+}
+.login_ways_Icon {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0px 20px 0px;
+  gap: 20px;
+  /* transform-origin: 50px 50px; */
+}
+.google_icon,
+.linkdin_icon,
+.facebook_icon {
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  transition: scale 300ms;
+}
+.google_icon:hover,
+.linkdin_icon:hover,
+.facebook_icon:hover {
+  scale: 1.4;
+}
+.already_account_main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.already_account {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  letter-spacing: 0.03em;
+  color: rgba(0, 0, 0, 0.7);
+  padding: 20px 0px 10px 0px;
+}
+.already_account_main button {
+  box-sizing: border-box;
+  width: 230px;
+  height: 36px;
+  cursor: pointer;
+  border: none;
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+
+  letter-spacing: 0.05em;
+  color: rgba(0, 0, 0, 0.7);
+}
+.already_account_main button:hover {
+  transition: 0.5 ease-in-out;
+  background: #ffc21b;
+}
+
+@media only screen and (max-width: 768px) {
+  .signin_page_main {
+    width: 350px;
+    height: 480px;
+  }
+  .side_image img {
+    height: 370px;
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .signin_page_main {
+    width: 350px;
+    height: 480px;
+  }
+  .signin_page_center {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 10px;
+  }
+
+  .side_image img {
+    display: none;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 375px) {
+  .signin_heading h1 {
+    font-weight: 600;
+    font-size: 24px;
+  }
+  .signin_page_main {
+    width: 340px;
+    height: 480px;
+  }
+
+  .inputs input {
+    width: 180px;
+    background-color: red;
+    height: 36px;
+    padding: 15px;
+  }
+  .btn {
+    width: 260px;
+    height: 36px;
+    padding: 0px;
+  }
+  .signup_btn {
+    width: 150px;
+    height: 36px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .signin_heading h1 {
+    font-weight: 600;
+    font-size: 22px;
+  }
+  .signin_page_main {
+    width: 280px;
+    height: 540px;
+    background: #ffffff;
+    border-radius: 27px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 4px 0px;
+  }
+}

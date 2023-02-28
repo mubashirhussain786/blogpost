@@ -1,0 +1,146 @@
+.navbar_main {
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
+.profile_side {
+  height: 55px;
+  width: 30%;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.user_profile {
+  display: flex;
+}
+.user_profile h1 {
+  display: none;
+}
+.user_profile img {
+  height: 40px;
+  cursor: pointer;
+  width: 40px;
+  border-radius: 25px;
+  margin: 0px 5px 0px 20px;
+}
+.user_profile_icons {
+  display: flex;
+  gap: 20px;
+}
+.user_icon {
+  height: 25px;
+  width: 23px;
+  color: rgba(0, 0, 0, 0.65);
+  cursor: pointer;
+}
+.userProfile_call_main {
+  padding: 0px 20px 0px 20px;
+  height: 55px;
+  width: 70%;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.userProfile_name {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+.userProfile_name img {
+  cursor: pointer;
+  height: 40px;
+  width: 40px;
+  border-radius: 30px;
+}
+.userProfile_name h1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgba(0, 0, 0, 0.8);
+}
+.audiocall_icon {
+  cursor: pointer;
+  margin-right: 13px;
+  height: 22px;
+  width: 22px;
+  color: rgba(0, 0, 0, 0.7);
+}
+.videocall_icon {
+  cursor: pointer;
+  height: 25px;
+  width: 27px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+@media only screen and (max-width: 768px) {
+  .user_profile img {
+    height: 35px;
+    width: 35px;
+  }
+  .user_profile_icons {
+    gap: 10px;
+  }
+  .user_icon {
+    height: 23px;
+    width: 21px;
+  }
+  .userProfile_name img {
+    height: 37px;
+    width: 37px;
+  }
+  .userProfile_name h1 {
+    font-weight: 600;
+    font-size: 15px;
+  }
+}
+@media only screen and (min-width: 426px) and (max-width: 649px) {
+  .profile_side {
+    width: 35%;
+  }
+  .userProfile_call_main {
+    width: 65%;
+  }
+  .user_profile_icons {
+    margin-right: 3px;
+    gap: 10px;
+  }
+  .user_icon {
+    height: 20px;
+    width: 18px;
+  }
+  .userProfile_name img {
+    height: 35px;
+    width: 35px;
+  }
+  .userProfile_name h1 {
+    font-weight: 600;
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 479px) {
+  .user_icon {
+    height: 21px;
+    width: 19px;
+  }
+  .user_profile_icons {
+    gap: 7px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .profile_side {
+    height: 55px;
+    width: 100%;
+  }
+  .userProfile_call_main {
+    display: none;
+  }
+  .user_profile_icons {
+    display: flex;
+    padding: 0px 15px 0px 0px;
+    gap: 15px;
+  }
+}

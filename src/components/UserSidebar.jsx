@@ -36,7 +36,7 @@ const UserSidebar = () => {
           <li>
             <RssFeedIcon />
             <span className="span">
-              <a href="#" onClick={() => navigate("/")}>
+              <a href="#" onClick={() => navigate("/timeline")}>
                 Feed
               </a>
             </span>

@@ -118,33 +118,18 @@
   }
 }
 
- 
-/* For Mobile Landscape View */
-@media screen and (max-device-width: 640px)
-and (orientation: landscape) {
- 
-}
- 
-/* For Mobile Phones Portrait or Landscape View */
-@media screen and (max-device-width: 640px) {
+@media only screen and (min-width: 1024px) and (max-width: 1420px){
+  .display--post{
+    width: 500px;
+    /* padding: 0; */
 
-}
+  }
+  /* .display--post_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 1px solid rgba(199, 199, 199, 1);
+  } */
  
-/* For iPhone 4 Portrait or Landscape View */
-@media screen and (min-device-width: 320px)
-and (-webkit-min-device-pixel-ratio: 2) {
-
 }
- 
-/* For iPhone 5 Portrait or Landscape View */
-@media (device-height: 568px) and (device-width: 320px)
-and (-webkit-min-device-pixel-ratio: 2) {
-
-}
- 
-/* For iPhone 6 and 6 plus Portrait or Landscape View */
-@media (min-device-height: 667px) and (min-device-width: 375px)
-and (-webkit-min-device-pixel-ratio: 3) {
-  
-}
-

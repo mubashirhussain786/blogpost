@@ -14,7 +14,7 @@ const Navbar = () => {
     <div className="Navbar">
       <nav className="nav_items">
         <div className="brand-logo">
-          <img src={logo} alt="" onClick={() => navigate("/")} />
+          <img src={logo} alt="" onClick={() => navigate("/timeline")} />
         </div>
 
         <div className="nav-link-menu">
@@ -22,7 +22,7 @@ const Navbar = () => {
             <input type="text" placeholder="Search...." className="input" />
             <SearchIcon />
           </div>
-          <img src={messanger} alt="" className="message__icon" />
+          <img src={messanger} alt="" className="message__icon" onClick={()=>navigate("/chattmain")} />
           <div className="toggle-button">
             <a
               href=""
@@ -54,7 +54,7 @@ const Navbar = () => {
         <li>
           <a href="/">Settings</a>
         </li>
-        <button>Logout</button>
+        <button onClick={()=>navigate("/")}>Logout</button>
       </div>
     </div>
   );

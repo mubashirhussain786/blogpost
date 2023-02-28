@@ -10,8 +10,8 @@ const Frends = () => {
   return (
     <>
    
-    <Navbar />
     <div className="freinds">
+    <Navbar />
       <h1 className="freinds-heading">Freinds</h1>
       {
         freindsData.map((freind)=>(

@@ -1,0 +1,198 @@
+.illustrator_signup_main {
+  display: flex;
+  justify-content: space-around;
+}
+.illustrator_signup {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(255, 255, 255);
+  height: 580px;
+  width: 970px;
+}
+.signup_page_aligncenter {
+  display: flex;
+
+  align-items: center;
+}
+.illistrator img {
+  height: 350px;
+  width: 450px;
+}
+.signup_page_main {
+  width: 380px;
+  height: 540px;
+  background: #ffffff;
+  border-radius: 27px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 4px 0px;
+}
+.signup_heading {
+  text-align: center;
+}
+.signup_heading h1 {
+  font-weight: 600;
+  font-size: 26px;
+  padding: 22px 0px 17px 0px;
+  letter-spacing: 0.065em;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 0px 13px 0px;
+}
+/* .dummy {
+  height: 70px;
+  width: 341px;
+} */
+
+.inputs label {
+  display: flex;
+  font-weight: 400;
+  font-size: 13px;
+  padding: 0px 0px 8px 0px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  color: rgba(0, 0, 0, 0.8);
+}
+.inputs input {
+  box-sizing: border-box;
+
+  width: 300px;
+  height: 36px;
+  border: none;
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.18);
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.inputs input:focus {
+  border: solid 2px rgb(10, 0, 145);
+  outline: none;
+  box-shadow: none;
+}
+.submit_btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0px 10px 0px;
+}
+.btn {
+  box-sizing: border-box;
+  width: 300px;
+  height: 36px;
+  cursor: pointer;
+  border: none;
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.18);
+  border-radius: 5px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 0.05em;
+  color: rgba(0, 0, 0, 0.7);
+}
+.submit_btn button:hover {
+  transition: 0.5 ease-in-out;
+  background: #ffc21b;
+}
+.already_account {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 10px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+@media only screen and (max-width: 768px) {
+  .signup_page_main {
+    width: 380px;
+    height: 540px;
+  }
+  .side_image img {
+    height: 370px;
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .signup_page_main {
+    width: 380px;
+    height: 540px;
+  }
+  .signup_page_aligncenter {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 10px;
+  }
+
+  .illistrator img {
+    display: none;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 375px) {
+  .signup_heading h1 {
+    font-weight: 600;
+    font-size: 24px;
+  }
+
+  .signup_page_main {
+    width: 340px;
+    height: 540px;
+    background: #ffffff;
+    border-radius: 27px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 4px 0px;
+  }
+  .inputs input {
+    width: 280px;
+
+    height: 36px;
+    padding: 15px;
+  }
+  .btn {
+    width: 260px;
+    height: 36px;
+    padding: 0px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .signup_heading h1 {
+    font-weight: 600;
+    font-size: 22px;
+  }
+  .signup_page_main {
+    width: 280px;
+    height: 540px;
+    background: #ffffff;
+    border-radius: 27px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 4px 0px;
+  }
+
+  .inputs input {
+    width: 250px;
+
+    height: 36px;
+    padding: 15px;
+  }
+  .btn {
+    width: 240px;
+    height: 36px;
+    padding: 0px;
+  }
+}

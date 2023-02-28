@@ -1,0 +1,361 @@
+.message_main {
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+}
+.navbar_main {
+  padding: 0px;
+  height: 55px;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profile_image_name {
+  margin-left: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+.profile_image_name img {
+  cursor: pointer;
+  height: 40px;
+  width: 40px;
+  border-radius: 25px;
+}
+.profile_image_name h1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgba(0, 0, 0, 0.8);
+}
+.navbar_icon {
+  margin-right: 20px;
+}
+.audiocall_icon {
+  cursor: pointer;
+  margin-right: 13px;
+  height: 22px;
+  width: 22px;
+  color: rgba(0, 0, 0, 0.7);
+}
+.videocall_icon {
+  cursor: pointer;
+  height: 25px;
+  width: 27px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.chatt_main {
+  height: 91vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column-reverse;
+}
+.msg_inbox_send_parrent {
+  /* padding: 0px 0px 20px 20px; */
+  height: 50px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.msg_inbox_receive_parrent {
+  /* margin: 0px 0px 20px 20px; */
+  height: 50px;
+  width: 100%;
+  margin: 0px 0px 20px 0px;
+}
+
+.msg_inbox_send_child {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.msg_inbox_receive_child {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  /* margin-bottom: 20px; */
+  margin-right: 20px;
+}
+.msg_inbox_send_child h2 {
+  border-radius: 10px 0px 10px 0px;
+  padding: 9px 16px 9px 16px;
+  background-color: rgb(123, 155, 101);
+  font-weight: 500;
+  font-size: 17px;
+  display: flex;
+  color: white;
+  align-items: center;
+}
+.msg_inbox_receive_child h2 {
+  border-radius: 0px 10px 0px 10px;
+  padding: 9px 16px 9px 16px;
+  background-color: rgb(163, 163, 163);
+  font-weight: 500;
+  font-size: 17px;
+  display: flex;
+  color: white;
+  align-items: center;
+}
+.msg_inbox_send_child p,
+.msg_inbox_receive_child p {
+  font-weight: 400;
+  font-size: 12px;
+  margin-top: 5px;
+  color: rgba(0, 0, 0, 0.9);
+  display: flex;
+}
+.write_comment_section {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background: #ffffff;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
+    rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+.emoji-icons {
+  height: 24px;
+  width: 24px;
+  cursor: pointer;
+  padding: 0px 9px 0px 15px;
+  color: rgba(0, 0, 0, 0.8);
+}
+.attach_icons {
+  height: 22px;
+  cursor: pointer;
+  width: 21px;
+  padding: 0px 11px 0px 9px;
+  color: rgba(0, 0, 0, 0.8);
+}
+.form_main {
+  height: 40px;
+  width: 84%;
+  cursor: pointer;
+  border-radius: 25px;
+  stroke: none;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  border: 1px solid #d9d9d9;
+}
+
+.form_main input {
+  height: 38px;
+  width: 90%;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 25px;
+}
+.form_main input:focus {
+  outline: none;
+}
+.msginput {
+  margin-left: 15px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  color: rgba(0, 0, 0, 0.7);
+}
+.msgsend_icon {
+  height: 23px;
+  width: 23px;
+  margin-left: 18px;
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.7);
+}
+.micicon {
+  padding: 0px 0px 0px 20px;
+  cursor: pointer;
+
+  color: rgba(0, 0, 0, 0.9);
+}
+.form_main button {
+  border: none;
+  margin-left: 8px;
+  background-color: white;
+}
+@media only screen and (max-width: 1440px) {
+  .micicon {
+    height: 23px;
+    width: 23px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .msg_inbox_send_child h2 {
+    font-weight: 500;
+    font-size: 15px;
+  }
+  .msg_inbox_receive_child h2 {
+    font-weight: 500;
+    font-size: 15px;
+  }
+  .micicon {
+    margin-right: 10px;
+    height: 23px;
+    width: 23px;
+  }
+  .msgsend_icon {
+    margin-right: 10px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .msg_inbox_send_child h2,
+  .msg_inbox_receive_child h2 {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .msgsend_icon {
+    height: 21px;
+    width: 21px;
+    margin-right: 14px;
+  }
+  .micIcon {
+    padding: 0px 13px 0px 13px;
+    color: rgba(0, 0, 0, 0.8);
+  }
+}
+@media only screen and (max-width: 425px) {
+  .profile_image_name img {
+    height: 35px;
+    width: 35px;
+  }
+  .msg_inbox_send_child h2,
+  .msg_inbox_receive_child h2 {
+    padding: 8px 10px 8px 10px;
+    font-size: 13px;
+    font-weight: 400;
+  }
+  .msg_inbox_receive_parrent,
+  .msg_inbox_send_parrent {
+    margin: 0px 0px 5px 0px;
+  }
+  .msg_inbox_send_child p,
+  .msg_inbox_receive_child p {
+    font-weight: 400;
+    font-size: 11px;
+  }
+  .micIcon {
+    padding: 0px 15px 0px 15px;
+    height: 25px;
+    width: 25px;
+    color: rgba(0, 0, 0, 0.8);
+  }
+  .msgInput {
+    margin-left: 15px;
+    font-weight: 500;
+    font-size: 13px;
+  }
+  .emoji-icons {
+    padding: 0px 3px 0px 15px;
+  }
+  .msgsend_icon {
+    height: 18px;
+    width: 18px;
+    margin-left: 0px;
+  }
+  .form_main {
+    height: 32px;
+    width: 84%;
+    margin-left: 0px;
+  }
+  .form_main input {
+    height: 30px;
+    width: 90%;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 25px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .msg_inbox_send_child h2,
+  .msg_inbox_receive_child h2 {
+    padding: 8px 8px 8px 8px;
+    font-size: 11px;
+    font-weight: 400;
+  }
+  .msg_inbox_receive_parrent,
+  .msg_inbox_send_parrent {
+    margin: 0px 0px 5px 0px;
+  }
+  .msg_inbox_send_child p,
+  .msg_inbox_receive_child p {
+    font-weight: 400;
+    font-size: 10px;
+  }
+}
+
+@media only screen and (min-width: 211px) and (max-width: 293px) {
+  .profile_image_name img {
+    height: 30px;
+    width: 30px;
+  }
+  .msg_inbox_send_child h2,
+  .msg_inbox_receive_child h2 {
+    padding: 8px 10px 8px 10px;
+    font-size: 11px;
+    font-weight: 500;
+  }
+  .msg_inbox_receive_parrent,
+  .msg_inbox_send_parrent {
+    margin: 0px 0px 5px 0px;
+  }
+  .msg_inbox_send_child p,
+  .msg_inbox_receive_child p {
+    font-weight: 500;
+    font-size: 10px;
+  }
+  .micIcon {
+    padding: 0px 15px 0px 15px;
+    height: 25px;
+    width: 25px;
+    color: rgba(0, 0, 0, 0.8);
+  }
+  .msgInput {
+    margin-left: 15px;
+    font-weight: 400;
+    font-size: 11px;
+  }
+  .msgsend_icon {
+    height: 15px;
+    width: 15px;
+    margin-left: 0px;
+  }
+  .msginput {
+    margin-left: 9px;
+    font-weight: 300;
+    font-size: 11px;
+  }
+  .profile_image_name {
+    margin-left: 10px;
+    gap: 8px;
+  }
+  .profile_image_name h1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    color: rgba(0, 0, 0, 0.8);
+  }
+  .navbar_icon {
+    margin-right: 3px;
+  }
+  .audiocall_icon {
+    margin-right: 10px;
+    height: 18px;
+    width: 18px;
+  }
+  .videocall_icon {
+    height: 20px;
+    width: 22px;
+    color: rgba(0, 0, 0, 0.7);
+    margin-right: 4px;
+  }
+}

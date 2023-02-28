@@ -31,7 +31,7 @@ const Sidebar = () => {
           <li>
             <RssFeedIcon />
             <span className="span">
-              <a href="/">Feed</a>
+              <a href="/timeline">Feed</a>
             </span>
           </li>
           <li>
@@ -90,7 +90,7 @@ const Sidebar = () => {
       </div>
       <div>
 
-      <button className="sidebar--logout_btn">Logout</button>
+      <button className="sidebar--logout_btn" onClick={()=>navigate("/")}>Logout</button>
       </div>
     </div>
   );
