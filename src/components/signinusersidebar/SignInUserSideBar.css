@@ -1,0 +1,21 @@
+.SignInUserSideBar {
+  padding: 30px;
+  background: #fff;
+  border: 0.5px solid #ddd;
+  height: 470px;
+}
+@media screen and (max-width: 1150px) {
+  .SignInUserSideBar {
+    padding: 20px;
+  }
+}
+@media screen and (max-width: 1084px) {
+  .SignInUserSideBar {
+    padding: 0px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .SignInUserSideBar {
+    display: none;
+  }
+}

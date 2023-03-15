@@ -1,0 +1,13 @@
+.stories--section {
+  /* height: 587px;
+    width: 240px; */
+  background-color: #fff;
+  padding: 20px 40px;
+  border-radius: 12px;
+  position: fixed;
+}
+/* @media only screen and (max-width: 1024px) {
+  .stories--section {
+    display: none;
+  }
+} */

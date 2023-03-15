@@ -1,0 +1,26 @@
+.cover-post-top img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.cover-post-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+.caption h3 {
+  font-size: 14px;
+  font-weight: 400;
+  padding: 0 20px;
+}
+.name-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.name-img h3 {
+  font-size: 16px;
+  font-weight: 500;
+}

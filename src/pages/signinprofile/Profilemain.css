@@ -1,0 +1,28 @@
+.profileinfo {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 30px;
+}
+.buttons {
+  display: flex;
+  gap: 30px;
+  padding-top: 1.5rem;
+}
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 3rem;
+}
+@media screen and (max-width: 1024px) {
+  .main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 768px) {
+  .buttons {
+    flex-direction: column;
+    gap: 10px;
+  }
+}

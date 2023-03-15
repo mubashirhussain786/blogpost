@@ -1,0 +1,83 @@
+.user-details {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  padding: 20px 30px;
+}
+.user-details h1 {
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.user-details p {
+  font-size: 14px;
+  font-weight: 300px;
+  text-transform: lowercase;
+}
+@media only screen and (max-width: 865px) {
+  .user-details {
+    row-gap: 10px;
+    padding: 20px;
+  }
+  .user-details h1 {
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: capitalize;
+  }
+  .user-details p {
+    font-size: 12ssssspx;
+    font-weight: 300px;
+    text-transform: lowercase;
+  }
+}
+@media only screen and (max-width: 632px) {
+  .user-details {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    padding: 10px 10px;
+  }
+  .user-details h1 {
+    font-size: 16px;
+    font-weight: 500;
+    word-spacing: 0.5px;
+    text-transform: capitalize;
+  }
+  .user-details p {
+    font-size: 12px;
+    font-weight: 300px;
+    text-transform: lowercase;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .user-details {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    /* padding: 10px 10px; */
+  }
+  .user-details h1 {
+    font-size: 14px;
+    font-weight: 500;
+    word-spacing: 0px;
+    text-transform: capitalize;
+  }
+  .user-details p {
+    font-size: 10px;
+    font-weight: 300px;
+    text-transform: lowercase;
+  }
+}
+@media screen and (max-width: 425px) {
+  .user-details {
+    top: -100px;
+    left: 40px;
+    position: relative;
+  }
+  .user-details h1 {
+    font-size: 18px;
+  }
+  .user-details p {
+    font-size: 14px;
+  }
+}

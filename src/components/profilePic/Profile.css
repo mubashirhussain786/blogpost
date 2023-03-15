@@ -1,0 +1,44 @@
+.profile-image {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+  object-fit: cover;
+  background-size: cover;
+  margin-top: -140px;
+}
+.profile {
+  display: flex;
+  gap: 20px;
+}
+.profile h1 {
+  font-size: 18px;
+}
+@media screen and (max-width: 550px) {
+  .profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .profile-image {
+    width: 12rem;
+    height: 12rem;
+    border-radius: 50%;
+    object-fit: cover;
+    background-size: cover;
+    margin-top: -100px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .profile-image {
+    width: 9rem;
+    height: 9rem;
+    border-radius: 50%;
+    object-fit: cover;
+    background-size: cover;
+    margin-top: -80px;
+  }
+}

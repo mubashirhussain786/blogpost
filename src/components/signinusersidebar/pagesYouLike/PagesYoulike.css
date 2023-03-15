@@ -1,0 +1,15 @@
+.sidebar--other__links p {
+  margin: 20px 30px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.sidebar--other__links__anchor li {
+  list-style: none;
+  margin: 15px 45px;
+}
+.sidebar--other__links__anchor a {
+  text-decoration: none;
+  display: flex;
+  color: black;
+  text-align: center;
+  margin-top: 10px;
+}

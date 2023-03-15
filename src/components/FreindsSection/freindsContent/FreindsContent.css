@@ -1,0 +1,20 @@
+
+.freinds--section_details{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 30px;
+    margin-left: 30px;
+    margin-top: 15px;
+    /* text-align: center; */
+}
+.freinds--section_name{
+    font-size: 14px;
+    font-weight: 500;
+    text-align: right;
+}
+.freinds--sections_img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}

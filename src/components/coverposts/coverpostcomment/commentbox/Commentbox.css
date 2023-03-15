@@ -1,0 +1,41 @@
+.comment-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.input-box {
+  width: 350px;
+  background: #fff;
+  border-radius: 8px;
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 20px;
+  border: 0.5px solid #e7e7e7;
+}
+.input-box input {
+  border: none;
+  outline: none;
+}
+.comment-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+@media screen and (max-width: 540px) {
+  .input-box {
+    width: 250px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .input-box {
+    width: 200px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .input-box {
+    width: 180px;
+  }
+}

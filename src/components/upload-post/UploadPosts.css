@@ -1,0 +1,136 @@
+.upload--posts--wrapper {
+  width: 500px;
+  height: 100px;
+  background: #fff;
+  border: 0.5px solid #e7e7e7;
+  border-radius: 12px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.upload-posts-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.post-user-profile--img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+.upload-posts-items input {
+  padding: 5px 15px;
+  height: 20px;
+  width: 200px;
+  border-radius: 10px;
+  border: 1px solid rgba(158, 154, 154, 0.865);
+  outline: none;
+}
+.upload-posts-items button {
+  padding: 10px 25px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 536px) {
+  .upload--posts--wrapper {
+    width: 425px;
+  }
+  .post-user-profile--img {
+    width: 40px;
+    height: 40px;
+  }
+  .upload-posts-items input {
+    padding: 5px 15px;
+    height: 20px;
+    width: 170px;
+    border-radius: 10px;
+    border: 1px solid rgba(158, 154, 154, 0.865);
+    outline: none;
+  }
+  .upload-posts-items button {
+    padding: 10px 25px;
+    cursor: pointer;
+  }
+}
+@media screen and (max-width: 425px) {
+  .upload--posts--wrapper {
+    width: 405px;
+  }
+  .upload-posts-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+  .post-user-profile--img {
+    width: 40px;
+    height: 40px;
+  }
+  .upload-posts-items input {
+    padding: 5px 25px;
+    height: 20px;
+    width: 180px;
+    border-radius: 10px;
+    border: 1px solid rgba(158, 154, 154, 0.865);
+    outline: none;
+  }
+  .upload-posts-items button {
+    display: none;
+  }
+}
+@media screen and (max-width: 415px) {
+  .upload--posts--wrapper {
+    width: 390px;
+  }
+}
+@media screen and (max-width: 395px) {
+  .upload--posts--wrapper {
+    height: 80px;
+    width: 374px;
+  }
+}
+@media screen and (max-width: 370px) {
+  .upload--posts--wrapper {
+    height: 70px;
+    width: 350px;
+  }
+  .upload-posts-items input {
+    padding: 5px 15px;
+    height: 20px;
+    width: 180px;
+    border-radius: 10px;
+    border: 1px solid rgba(158, 154, 154, 0.865);
+    outline: none;
+  }
+}
+@media screen and (max-width: 355px) {
+  .upload--posts--wrapper {
+    width: 330px;
+    height: 70px;
+  }
+  .upload-posts-items input {
+    padding: 5px 15px;
+    height: 20px;
+    width: 170px;
+    border-radius: 10px;
+    border: 1px solid rgba(158, 154, 154, 0.865);
+    outline: none;
+  }
+}
+@media screen and (max-width: 335px) {
+  .upload--posts--wrapper {
+    width: 315px;
+    height: 70px;
+  }
+  .upload-posts-items input {
+    padding: 5px 15px;
+    height: 20px;
+    width: 160px;
+    border-radius: 10px;
+    border: 1px solid rgba(158, 154, 154, 0.865);
+    outline: none;
+  }
+}
